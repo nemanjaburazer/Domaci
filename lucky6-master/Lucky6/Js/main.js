@@ -1,6 +1,6 @@
 let niz = [];
 let balance = document.getElementById('balance').innerHTML;
-
+// komentar
 
 for (let i = 0; i < 35; i++) {
     var add = true;
