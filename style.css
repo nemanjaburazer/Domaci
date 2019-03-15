@@ -1,0 +1,235 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover {
+    border: solid 2px white
+}
+
+.section1_text {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+
+}
+
+.container-fluid {
+   padding: 0px;
+}
+
+.section1 {
+    width: 100%;
+    background: url(../Domaci/images/slusalice1920x1280.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.section1 a {
+    background-color: white;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 20% / 50%;
+}
+
+.section2 {
+    padding: 80px 80px 60px 80px;
+}
+
+.section2 p {
+    padding: 0 20px;
+}
+
+.section3 {
+    text-align: center;
+    background-color: #fac769;
+    color: white;
+    padding: 40px 100px;
+}
+
+.section4 {
+    padding: 80px 80px;
+}
+ 
+.section4 a {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    background-color: #fac769;
+    border-radius: 20% / 50%;
+    padding: 10px;
+    color: black;
+}
+
+.card {
+    border: none;
+    height: 100%;
+}
+
+.card-block {
+    background-color: #fac769;
+    padding: 20px;
+    height: 100%;
+}
+
+.card-title {
+    font-weight: 800;
+}
+
+.card-text {
+    color: white;
+}
+
+.section5 {
+    padding: 80px;
+}
+
+.section5 .col-lg-3 {
+    padding: 10px;
+}
+
+.section5 .col-lg-3:hover {
+    padding: 0px;
+}
+.section6 {
+    background-color: #fac769;
+    padding: 40px 200px;
+    color: white;
+
+}
+
+ .section6 a {
+    background-color: white;
+    padding: 15px;
+    border-radius: 20% / 50%;
+    color: black;
+    text-decoration: none;
+ }
+
+ .section7 {
+     padding: 80px 0px;
+ }
+
+.section7 .card-naslov {
+    font-size: 4rem;
+    color: #fac769;
+    position: relative;
+    margin: 0 auto;
+    font-weight: bolder;
+ }
+
+.section7 .card-podnaslov {
+    position: absolute;
+    top: 58px;
+    font-weight: bolder;
+}
+
+.section7 a {
+    color: #fac769;
+    text-decoration: none;
+}
+
+.section8 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.section8 p {
+    margin: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .section6 {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    .section6 .col-lg-4 {
+    position: relative;
+        padding: 10px 10px;
+        margin: 0px;
+    }
+
+    .section6 .col-lg-8 {
+        padding-bottom: 10px;
+    }
+
+    .section2 {
+        padding: 10px 10px;
+        text-align: justify;
+    }
+
+    .section2-text {
+        transform: translate(-10%, -100%)
+    }
+
+    .card {
+        padding-bottom: 20px;
+    }
+
+    .section4 {
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        
+    }
+
+    .section5 {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .section1_text {
+        text-align: center;
+        position: relative;
+        left: 0%;
+    }
+    .section1 {
+        padding-top: 50px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 319px){
+    .section3, .section2 {
+        padding: 10px;
+        text-align: left
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .section1 {
+        padding-top: 50px;
+        height: 300px;
+    }
+    .section1_text {
+        text-align: center;
+        position: relative;
+        left: 0%;
+    }
+
+     .section6 {
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    .section6 .col-lg-4 {
+    
+        padding: 10px 10px;
+    }
+
+    .section6 .col-lg-8 {
+        padding-bottom: 10px;
+    }
+}
